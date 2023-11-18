@@ -1,7 +1,5 @@
-package com.todo.user;
+package com.e_commerce.user;
 
-import com.todo.user.UserItem;
-import com.todo.user.UserRepository;
 import org.springframework.security.crypto.bcrypt.BCrypt;
 import org.springframework.stereotype.Service;
 

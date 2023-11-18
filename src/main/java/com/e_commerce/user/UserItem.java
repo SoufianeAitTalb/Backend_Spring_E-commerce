@@ -1,4 +1,4 @@
-package com.todo.user;
+package com.e_commerce.user;
 
 import org.springframework.security.crypto.bcrypt.BCrypt;
 
@@ -6,11 +6,7 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
-import javax.sql.rowset.serial.SerialBlob;
 import javax.validation.constraints.NotNull;
-import java.sql.Blob;
-import java.sql.SQLException;
-import java.util.Base64;
 
 
 @Entity

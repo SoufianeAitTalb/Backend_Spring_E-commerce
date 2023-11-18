@@ -1,12 +1,12 @@
-package com.todo.Task;
+package com.e_commerce.Task;
 
-import com.todo.comments.Comments;
-import com.todo.comments.CommentsRepository;
-import com.todo.message.MessageItem;
-import com.todo.message.MessageRepository;
-import com.todo.user.UserItem;
-import com.todo.user.UserRepository;
-import com.todo.user.UserService;
+import com.e_commerce.comments.Comments;
+import com.e_commerce.comments.CommentsRepository;
+import com.e_commerce.message.MessageItem;
+import com.e_commerce.message.MessageRepository;
+import com.e_commerce.user.UserItem;
+import com.e_commerce.user.UserRepository;
+import com.e_commerce.user.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -18,7 +18,7 @@ import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.http.ResponseEntity;
+
 import java.util.HashMap;
 import java.util.Map;
 @RestController

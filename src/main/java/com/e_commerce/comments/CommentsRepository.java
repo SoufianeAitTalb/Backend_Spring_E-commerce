@@ -1,4 +1,4 @@
-package com.todo.comments;
+package com.e_commerce.comments;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 

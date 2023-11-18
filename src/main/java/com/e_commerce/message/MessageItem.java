@@ -1,4 +1,4 @@
-package com.todo.message;
+package com.e_commerce.message;
 
 
 import javax.persistence.Entity;
@@ -6,7 +6,6 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.sql.rowset.serial.SerialBlob;
-import javax.validation.constraints.NotNull;
 
 import java.sql.Blob;
 import java.sql.SQLException;

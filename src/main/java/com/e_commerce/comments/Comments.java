@@ -1,13 +1,7 @@
-package com.todo.comments;
-
-import com.todo.Task.TaskItem;
+package com.e_commerce.comments;
 
 import javax.persistence.*;
-import javax.sql.rowset.serial.SerialBlob;
-import javax.validation.constraints.NotNull;
-import java.sql.Blob;
-import java.sql.SQLException;
-import java.util.Base64;
+
 @Entity
 public class Comments {
     @Id

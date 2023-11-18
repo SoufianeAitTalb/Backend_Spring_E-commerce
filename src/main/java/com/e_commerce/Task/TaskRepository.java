@@ -1,4 +1,4 @@
-package com.todo.Task;
+package com.e_commerce.Task;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
